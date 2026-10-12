@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Atendimentos | Dra. Thatiana Machado Brasil</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.jpeg" alt="Logo da Dra. Thatiana Machado Brasil" />
+        <span>
+          DRA. THATIANA
+          <small>MACHADO BRASIL</small>
+        </span>
+      </a>
+
+      <a class="outline header-outline" href="index.html#atendimentos">
+        Todos os atendimentos ↗
+      </a>
+    </header>
+
+    <main class="treatment-page">
+      <section class="treatment-hero">
+        <div class="treatment-hero__inner">
+          <div class="treatment-topline">
+            <a class="back-link" href="index.html#atendimentos">
+              <span aria-hidden="true">←</span>
+              Voltar aos atendimentos
+            </a>
+
+            <span class="treatment-label">SAÚDE URINÁRIA E ÍNTIMA</span>
+          </div>
+
+          <div class="treatment-heading-grid">
+            <div class="treatment-title-column">
+              <span class="treatment-number">ATENDIMENTO</span>
+              <h1 id="titulo"></h1>
+            </div>
+
+            <div class="treatment-visual-column">
+              <figure class="treatment-image-wrap">
+                <img id="imagem-atendimento" src="" alt="" />
+              </figure>
+
+              <div class="treatment-intro-card">
+                <span class="eyebrow">VISÃO GERAL</span>
+                <p id="descricao"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="treatment-content">
+        <div class="treatment-content__inner">
+          <div class="treatment-main-copy">
+            <article class="treatment-block">
+              <span class="block-index">01</span>
+              <div>
+                <h2>Como acontece a avaliação?</h2>
+                <p>
+                  Na consulta, a médica escuta suas queixas, conhece seu histórico e avalia a necessidade de exames ou outras etapas de investigação. As possibilidades de cuidado são discutidas de forma individualizada.
+                </p>
+              </div>
+            </article>
+
+            <article class="treatment-block">
+              <span class="block-index">02</span>
+              <div>
+                <h2>O que levar para a consulta?</h2>
+                <p>
+                  Se você já possui exames anteriores ou utiliza medicamentos de forma contínua, leve essas informações com você. Isso ajuda a tornar a avaliação mais completa e contextualizada.
+                </p>
+              </div>
+            </article>
+
+            <article class="treatment-block">
+              <span class="block-index">03</span>
+              <div>
+                <h2>Como agendar?</h2>
+                <p>
+                  O atendimento é particular em Manaus. Fale com a equipe para consultar a disponibilidade de horários e solicitar o seu agendamento.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <aside class="treatment-aside">
+            <div class="treatment-quote-card">
+              <span class="eyebrow">CUIDADO INDIVIDUALIZADO</span>
+              <p>
+                “A consulta é um espaço para conversar, esclarecer dúvidas e avaliar os cuidados indicados para você.”
+              </p>
+            </div>
+
+            <div class="treatment-cta-card">
+              <span class="eyebrow">AGENDAMENTO</span>
+              <h3>Sua história é o ponto de partida.</h3>
+              <p>
+                Entre em contato com a equipe para solicitar informações sobre horários disponíveis.
+              </p>
+              <a class="btn treatment-btn" href="index.html#contato">
+                Escolher local de atendimento ↗
+              </a>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="treatment-return">
+        <div>
+          <span class="eyebrow">OUTROS ATENDIMENTOS</span>
+          <h2>Conheça outras áreas de cuidado.</h2>
+        </div>
+        <a class="outline" href="index.html#atendimentos">Ver todos os atendimentos ↗</a>
+      </section>
+    </main>
+
+    <footer class="premium-footer">
+   <div class="footer-bottom footer-bottom--single-row">
+    <a class="footer-identity" href="index.html">
+     <img src="assets/logo.jpeg" alt="Logotipo da Dra. Thatiana Machado Brasil"/>
+     <span>Dra. Thatiana Machado Brasil <small>Urologia feminina • Manaus, AM</small></span>
+    </a>
+    <a class="footer-pill footer-instagram" href="https://www.instagram.com/drathatiana.urologia/" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Dra. Thatiana">
+     <svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" ry="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg>
+     <span>@drathatiana.urologia</span>
+    </a>
+    <a class="footer-privacy" href="privacidade.html">Privacidade</a>
+    <small class="footer-copy">© 2026 Dra. Thatiana Machado Brasil. Desenvolvido por MAVEM.</small>
+   </div>
+  </footer>
+
+    <script>
+      const areas = {
+        urologia: {
+          titulo: 'Urologia feminina e funcional',
+          descricao: 'Avaliação de queixas como perdas de urina, urgência para ir ao banheiro, mudanças na frequência urinária e dificuldade para esvaziar a bexiga. O cuidado é definido após entender os sintomas e sua história.',
+          imagem: 'assets/atendimento-urologia-feminina.png',
+          alt: 'Consulta de urologia feminina e funcional com a Dra. Thatiana Machado Brasil'
+        },
+        menopausa: {
+          titulo: 'Saúde urinária na menopausa',
+          descricao: 'Avaliação de mudanças urinárias e desconfortos íntimos percebidos durante a perimenopausa e a menopausa. A consulta ajuda a investigar suas causas e conversar sobre as opções de cuidado.',
+          imagem: 'assets/atendimento-menopausa.png',
+          alt: 'Consulta sobre saúde urinária na menopausa com a Dra. Thatiana Machado Brasil'
+        },
+        infeccoes: {
+          titulo: 'Infecções urinárias recorrentes',
+          descricao: 'Investigação de episódios repetidos de infecção urinária e orientação conforme o histórico e os exames. Sintomas parecidos podem ter causas diferentes, por isso a avaliação é importante.',
+          imagem: 'assets/atendimento-infeccoes.png',
+          alt: 'Consulta sobre infecções urinárias recorrentes com a Dra. Thatiana Machado Brasil'
+        },
+        prolapsos: {
+          titulo: 'Prolapsos e condições uroginecológicas',
+          descricao: 'Avaliação de prolapsos, conhecidos popularmente como queda dos órgãos pélvicos, e de outras condições que afetam a função urinária e o conforto.',
+          imagem: 'assets/atendimento-prolapsos.png',
+          alt: 'Consulta sobre prolapsos e condições uroginecológicas com a Dra. Thatiana Machado Brasil'
+        },
+        ninfoplastia: {
+          titulo: 'Ninfoplastia e cirurgia íntima',
+          descricao: 'A ninfoplastia modifica os pequenos lábios da vulva. A consulta permite conversar sobre o incômodo, avaliar se existe indicação e compreender alternativas, riscos e recuperação.',
+          imagem: 'assets/atendimento-ninfoplastia.png',
+          alt: 'Consulta sobre ninfoplastia e cirurgia íntima com a Dra. Thatiana Machado Brasil'
+        }
+      };
+
+      const selectedArea = new URLSearchParams(window.location.search).get('area');
+      const currentArea = areas[selectedArea] || areas.urologia;
+
+      const titleElement = document.querySelector('#titulo');
+
+      if (selectedArea === 'prolapsos') {
+        document.querySelector('.treatment-page').classList.add('treatment-page--long-title');
+        titleElement.innerHTML = `
+          <span class="treatment-title-line">Prolapsos e</span>
+          <span class="treatment-title-line">condições</span>
+          <span class="treatment-title-line">uroginecológicas</span>
+        `;
+      } else {
+        titleElement.textContent = currentArea.titulo;
+      }
+
+      document.querySelector('#descricao').textContent = currentArea.descricao;
+
+      const treatmentImage = document.querySelector('#imagem-atendimento');
+      treatmentImage.src = currentArea.imagem;
+      treatmentImage.alt = currentArea.alt;
+
+      document.title = `${currentArea.titulo} | Dra. Thatiana Machado Brasil`;
+    </script>
+  </body>
+</html>
