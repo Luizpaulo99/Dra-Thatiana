@@ -1,4 +1,0 @@
-SITE DRA. THATIANA — PRÉVIA PARA APROVAÇÃO
-Abra index.html no navegador ou utilize Live Server no VS Code.
-PENDÊNCIAS ANTES DE PUBLICAR: CRM e RQE; número WhatsApp profissional; nome/endereço/mapa da clínica; confirmação do catálogo de serviços; fotos autorizadas da clínica; política de privacidade final; domínio, canonical, sitemap, compartilhamento e ferramentas de mensuração; aprovação de todos os textos. As páginas internas estão com noindex até aprovação.
-Fotos e logo fornecidos no pedido. Cores aproximadas da referência, substituir pelos HEX oficiais.
